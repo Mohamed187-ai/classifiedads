@@ -21,7 +21,7 @@ class AdsRepository implements AdsInterface
 
     public function all()
     {
-
+        return $this->ads->all();
     }
 
     public function store($request)
